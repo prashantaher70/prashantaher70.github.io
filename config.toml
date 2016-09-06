@@ -1,0 +1,11 @@
+baseurl = "https://prashantaher70.github.io/"
+languageCode = "en-us"
+title = "From Mind to Quill"
+Description = "From Mind to Quill"
+
+disqusShortname = "mindtoquill"
+[Author]
+  name = "Prashant Aher"
+  github = "prashantaher70"
+  linkedin = "prashantaher70"
+  email = "aherPrashant70@gmail.com"
