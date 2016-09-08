@@ -4,8 +4,23 @@ title = "From Mind to Quill"
 Description = "From Mind to Quill"
 
 disqusShortname = "mindtoquill"
+paginate = 5
+
 [Author]
   name = "Prashant Aher"
   github = "prashantaher70"
   linkedin = "prashantaher70"
   email = "aherPrashant70@gmail.com"
+
+[[menu.main]]
+  name = "About Me"
+  url = "/page/about-me"
+  weight = 1
+  identifier = "about"  
+      
+#[[menu.main]]
+#  name = "About Me"
+#  url = "/about-me"
+#  weight = 1
+#  parent = "about"  
+ 
