@@ -8,8 +8,37 @@
     <language>en-us</language>
     <managingEditor>aherPrashant70@gmail.com (Prashant Aher)</managingEditor>
     <webMaster>aherPrashant70@gmail.com (Prashant Aher)</webMaster>
-    <lastBuildDate>Wed, 07 Sep 2016 00:40:49 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 09 Sep 2016 03:33:28 +0530</lastBuildDate>
     <atom:link href="https://prashantaher70.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Building a static website</title>
+      <link>https://prashantaher70.github.io/post/static-sites/</link>
+      <pubDate>Fri, 09 Sep 2016 03:33:28 +0530</pubDate>
+      <author>aherPrashant70@gmail.com (Prashant Aher)</author>
+      <guid>https://prashantaher70.github.io/post/static-sites/</guid>
+      <description>
+
+&lt;h4 id=&#34;why-github-pages&#34;&gt;Why GitHub pages?&lt;/h4&gt;
+
+&lt;p&gt;Thinking of writing a blog or a portfolio? Want a personal website with your own domain? Don&amp;rsquo;t want to deal with troubles of hosting the website yourselfs?&lt;br /&gt;
+If your answer is yes to the above questions, then &lt;a target=_blank href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; is what you are looking for.&lt;/p&gt;
+
+&lt;h4 id=&#34;what-you-need-to-know&#34;&gt;What you need to know?&lt;/h4&gt;
+
+&lt;p&gt;To create a website with GitHub Pages, you should know how to write &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Markdowns&lt;/a&gt;. No need of reading the Wikipedia link.&lt;br /&gt;
+If you are new to markdowns, take this quick &lt;a target=_blank href=&#34;http://www.markdowntutorial.com&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;hugo&#34;&gt;Hugo&lt;/h4&gt;
+
+&lt;p&gt;Markdowns are the only thing you should know to get started with GitHub pages, but we want more than just ugly looking webpages. We want themes, discussion plugins. We can use Jekyll for the same as suggested on GitHub pages website. Personally I felt Jekyll was not easy to begin with. So I looked around and found &lt;a href=&#34;https://gohugo.io/&#34; target=_blank&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hugo can be made up and running in minutes. Just some commands and steps to follow. People have developed few themes which you can directly use on your website.&lt;br /&gt;
+You can find those themes &lt;a target=_blank href=&#34;http://themes.gohugo.io/&#34;&gt;here&lt;/a&gt; and Hugo getting started &lt;a target=_blank href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This site is created using &lt;a target=_blank href=&#34;http://themes.gohugo.io/beautifulhugo/&#34;&gt;this theme&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello World</title>
