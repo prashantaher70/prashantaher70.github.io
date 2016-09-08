@@ -1,6 +1,6 @@
 +++
-date = "2016-09-09T01:49:45+05:30"
-draft = true
+date = "2016-09-09T03:33:28+05:30"
+draft = false
 title = "Building a static website"
 subtitle= "with Hugo and GitHub Pages"
 ogimage= "/images/static-website-og-image.jpeg"
