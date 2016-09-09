@@ -7,9 +7,7 @@
 
   <meta name="author" content="{{ .Site.Author.name }}" />
   
-  {{ if .Description }}
-  <meta name="description" content="{{ .Description }}">
-  {{ end }}
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
   {{ .Hugo.Generator }}
 
@@ -26,6 +24,6 @@
   <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .Permalink }}" />
-  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.ogimage }}" />
-  
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ if .Params.ogimage }}{{.Params.ogimage}}{{ else }}{{ .Site.Params.ogimage }}{{ end }}" />
+  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 </head>

@@ -1,10 +1,16 @@
 baseurl = "https://prashantaher70.github.io/"
 languageCode = "en-us"
 title = "From Mind to Quill"
-Description = "From Mind to Quill"
+description = "From Mind to Quill: My experiences and learnings"
 
 disqusShortname = "mindtoquill"
+googleAnalytics = "UA-83904648-1"
 paginate = 5
+
+[Params]
+  ogimage= "images/quill.jpeg"
+  description = "From Mind to Quill: My experiences and learnings"
+  fbappid = "653620094814314"
 
 [Author]
   name = "Prashant Aher"
