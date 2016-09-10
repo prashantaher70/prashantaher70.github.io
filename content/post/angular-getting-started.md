@@ -3,9 +3,9 @@ date = "2016-09-10T16:00:49+05:30"
 draft = false
 title = "Angular: Getting started (Part 1)"
 subtitle= "Short introduction to angular.js"
-ogimage= "images/angular-getting-started.png"
+ogimage= "images/angularjs-part1-og.jpg"
 bigimg = "/images/angular-getting-started.png"
-
+description = "What is Angular JS and why you should consider it for your next project?"
 +++
 
 #### What is Angular JS?

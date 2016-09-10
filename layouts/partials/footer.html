@@ -5,7 +5,7 @@
         <ul class="list-inline text-center footer-links">
           {{ if .Site.Author.facebook }}
           <li>
-            <a href="https://www.facebook.com/{{ .Site.Author.facebook }}" title="Facebook">
+            <a target=_blank href="https://www.facebook.com/{{ .Site.Author.facebook }}" title="Facebook">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -13,9 +13,20 @@
             </a>
           </li>
           {{ end }}
+         {{ if .Site.Author.angelco }}
+          <li>
+            <a target=_blank href="https://angel.co/{{ .Site.Author.angelco }}" title="Angels">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-angellist fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+
           {{ if .Site.Author.github }}
           <li>
-            <a href="https://github.com/{{ .Site.Author.github }}" title="GitHub">
+            <a target=_blank href="https://github.com/{{ .Site.Author.github }}" title="GitHub">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -25,7 +36,7 @@
           {{ end }}
 		      {{ if .Site.Author.twitter }}
           <li>
-            <a href="https://twitter.com/{{ .Site.Author.twitter }}" title="Twitter">
+            <a target=_blank href="https://twitter.com/{{ .Site.Author.twitter }}" title="Twitter">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -45,7 +56,7 @@
           {{ end }}
 		      {{ if .Site.Author.linkedin }}
           <li>
-            <a href="https://in.linkedin.com/in/{{ .Site.Author.linkedin }}" title="LinkedIn">
+            <a target=_blank href="https://in.linkedin.com/in/{{ .Site.Author.linkedin }}" title="LinkedIn">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -55,7 +66,7 @@
           {{ end }}
 	    	  {{ if .Site.Author.stackoverflow }}
           <li>
-            <a href="https://stackoverflow.com/users/{{ .Site.Author.stackoverflow }}" title="StackOverflow">
+            <a target=_blank href="https://stackoverflow.com/users/{{ .Site.Author.stackoverflow }}" title="StackOverflow">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
@@ -65,7 +76,7 @@
           {{ end }}
           {{ if .Site.Author.soundcloud }}
           <li>
-            <a href="https://soundcloud.com/{{ .Site.Author.soundcloud }}" title="SoundCloud">
+            <a target=_blank href="https://soundcloud.com/{{ .Site.Author.soundcloud }}" title="SoundCloud">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
@@ -75,7 +86,7 @@
           {{ end }}
           {{ if .Site.Author.wikipedia }}
           <li>
-            <a href="https://wikipedia.org/wiki/User:{{ .Site.Author.wikipedia }}" title="Wikipedia">
+            <a target=_blank href="https://wikipedia.org/wiki/User:{{ .Site.Author.wikipedia }}" title="Wikipedia">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-wikipedia-w fa-stack-1x fa-inverse"></i>
@@ -85,7 +96,7 @@
           {{ end }}
 
     		  <li>
-      			<a href="{{ .Site.BaseURL}}index.xml" title="RSS">
+      			<a target=_blank href="{{ .Site.BaseURL}}index.xml" title="RSS">
       			  <span class="fa-stack fa-lg">
         				<i class="fa fa-circle fa-stack-2x"></i>
         				<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
