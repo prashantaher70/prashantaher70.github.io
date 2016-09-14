@@ -8,9 +8,14 @@ googleAnalytics = "UA-83904648-1"
 paginate = 5
 
 [Params]
+  favicon = "/images/quill1.png"
+  subtitle= "My experiences; My learnings" 
   ogimage= "images/quill.jpeg"
   description = "From Mind to Quill: My experiences and learnings"
   fbappid = "653620094814314"
+
+[Params.fmt]
+  ISO8601 = "2006-01-02T15:04:05IST"
 
 [Author]
   name = "Prashant Aher"

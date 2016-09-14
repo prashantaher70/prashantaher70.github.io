@@ -4,6 +4,8 @@ draft = false
 title = "Building a static website"
 subtitle= "with Hugo and GitHub Pages"
 ogimage= "images/static-website-og-image.png"
+ogheight= 630
+ogwidth= 1200
 description= "Building static websites with Hugo and hosting them using GitHub Pages"
 +++
 

@@ -2,7 +2,9 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
+  <link rel="icon" 
+      type="image/png" 
+      href="{{ .Site.Params.favicon }}" />
   <title>{{ .Title }}</title>
 
   <meta name="author" content="{{ .Site.Author.name }}" />
@@ -28,3 +30,47 @@
   <meta property="og:image" content="{{ .Site.BaseURL }}{{ if .Params.ogimage }}{{.Params.ogimage}}{{ else }}{{ .Site.Params.ogimage }}{{ end }}" />
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 </head>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "{{.Site.Title}}",
+  "alternateName": "{{.Site.Params.description}}",
+  "url": "{{.Site.BaseURL}}"
+}
+</script>
+
+{{ if eq .Type "post" }}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "headline": "{{ .Title }}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ .Site.BaseURL }}{{ .Params.ogimage }}",
+    "height": {{ .Params.ogheight }},
+    "width": {{ .Params.ogwidth }}
+  },
+  "datePublished": "{{ .Date.Format .Site.Params.fmt.ISO8601 }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Author.name }}"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}{{ .Site.Params.favicon }}"
+    }
+  },
+  "description": "{{ .Site.Params.description }}"
+}
+</script>
+{{end}}

@@ -4,6 +4,8 @@ draft = false
 title = "Angular: Getting started (Part 1)"
 subtitle= "Short introduction to angular.js"
 ogimage= "images/angularjs-part1-og.jpg"
+ogheight= 340
+ogwidth= 600
 bigimg = "/images/angular-getting-started.png"
 description = "What is Angular JS and why you should consider it for your next project?"
 +++
