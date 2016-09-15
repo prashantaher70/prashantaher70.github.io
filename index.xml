@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>From Mind to Quill</title>
-    <link>https://prashantaher70.github.io/</link>
+    <link>http://prashantaher.com/</link>
     <description>Recent content on From Mind to Quill</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>aherPrashant70@gmail.com (Prashant Aher)</managingEditor>
     <webMaster>aherPrashant70@gmail.com (Prashant Aher)</webMaster>
     <lastBuildDate>Sat, 10 Sep 2016 16:00:49 +0530</lastBuildDate>
-    <atom:link href="https://prashantaher70.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://prashantaher.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Angular: Getting started (Part 1)</title>
-      <link>https://prashantaher70.github.io/post/angular-getting-started/</link>
+      <link>http://prashantaher.com/post/angular-getting-started/</link>
       <pubDate>Sat, 10 Sep 2016 16:00:49 +0530</pubDate>
       <author>aherPrashant70@gmail.com (Prashant Aher)</author>
-      <guid>https://prashantaher70.github.io/post/angular-getting-started/</guid>
+      <guid>http://prashantaher.com/post/angular-getting-started/</guid>
       <description>
 
 &lt;h4 id=&#34;what-is-angular-js&#34;&gt;What is Angular JS?&lt;/h4&gt;
@@ -69,10 +69,10 @@ The Angular injector subsystem is in charge of creating components, resolving th
     
     <item>
       <title>Building a static website</title>
-      <link>https://prashantaher70.github.io/post/static-sites/</link>
+      <link>http://prashantaher.com/post/static-sites/</link>
       <pubDate>Fri, 09 Sep 2016 03:33:28 +0530</pubDate>
       <author>aherPrashant70@gmail.com (Prashant Aher)</author>
-      <guid>https://prashantaher70.github.io/post/static-sites/</guid>
+      <guid>http://prashantaher.com/post/static-sites/</guid>
       <description>
 
 &lt;h4 id=&#34;why-github-pages&#34;&gt;Why GitHub pages?&lt;/h4&gt;
@@ -98,10 +98,10 @@ You can find those themes &lt;a target=_blank href=&#34;http://themes.gohugo.io/
     
     <item>
       <title></title>
-      <link>https://prashantaher70.github.io/page/about-me/</link>
+      <link>http://prashantaher.com/page/about-me/</link>
       <pubDate>Fri, 09 Sep 2016 03:33:19 +0530</pubDate>
       <author>aherPrashant70@gmail.com (Prashant Aher)</author>
-      <guid>https://prashantaher70.github.io/page/about-me/</guid>
+      <guid>http://prashantaher.com/page/about-me/</guid>
       <description>
 
 &lt;h4 id=&#34;about-me&#34;&gt;About me&lt;/h4&gt;
@@ -149,10 +149,10 @@ You can find those themes &lt;a target=_blank href=&#34;http://themes.gohugo.io/
     
     <item>
       <title>Hello World</title>
-      <link>https://prashantaher70.github.io/post/hello-world/</link>
+      <link>http://prashantaher.com/post/hello-world/</link>
       <pubDate>Wed, 07 Sep 2016 00:40:49 +0530</pubDate>
       <author>aherPrashant70@gmail.com (Prashant Aher)</author>
-      <guid>https://prashantaher70.github.io/post/hello-world/</guid>
+      <guid>http://prashantaher.com/post/hello-world/</guid>
       <description>&lt;p&gt;A thought popped out of nowhere , why don&amp;rsquo;t I write a blog!! Response came &lt;em&gt;Go ahead&lt;/em&gt;. Then the next question was &amp;lsquo;What I should write?&amp;rsquo;.
 I still don&amp;rsquo;t know the answer for the same. Starting with &lt;code&gt;Hello World!&lt;/code&gt; while learning &lt;strong&gt;Github Pages&lt;/strong&gt; and &lt;strong&gt;Hugo&lt;/strong&gt;.&lt;/p&gt;
 </description>
