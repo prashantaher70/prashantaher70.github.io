@@ -32,6 +32,33 @@
 &lt;p&gt;See my complete resume &lt;a href=&#34;https://drive.google.com/file/d/0B28swVcskDahRjlzUXp1YzA5aVU/view?usp=sharing&#34; target=_blank&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;See my Angellist  profile &lt;a href=&#34;https://angel.co/prashantaher70&#34; target=_blank&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;script type=&#34;application/ld+json&#34;&gt;
+{
+  &#34;@context&#34;: &#34;http://schema.org&#34;,
+  &#34;@type&#34;: &#34;Person&#34;,
+  &#34;mainEntityOfPage&#34;: {
+    &#34;@type&#34;: &#34;WebPage&#34;,
+    &#34;@id&#34;: &#34;https://google.com/article&#34;
+  },
+  &#34;name&#34;: &#34;Prashant Aher&#34;,
+  &#34;email&#34;: &#34;aherPrashant70@gmail.com&#34;,
+  &#34;alumniOf&#34;: {
+    &#34;@type&#34;: &#34;Organization&#34;,
+    &#34;name&#34;: &#34;Visvesvaraya National Institute of Technology&#34;,
+    &#34;sameAs&#34;: [
+        &#34;https://www.facebook.com/pages/Visvesvaraya-National-Institute-of-Technology/1556263164605410&#34;, &#34;https://en.wikipedia.org/wiki/Visvesvaraya_National_Institute_of_Technology&#34;
+    ],
+    &#34;alternateName&#34;: &#34;VNIT&#34;
+  },
+  &#34;sameAs&#34;: [
+    &#34;https://angel.co/prashantaher70&#34;,
+    &#34;https://github.com/prashantaher70&#34;,
+    &#34;https://in.linkedin.com/in/prashantaher70&#34;,
+    &#34;https://www.facebook.com/aherprashant70&#34;
+  ]
+}
+&lt;/script&gt;
 </description>
     </item>
     
